@@ -1,16 +1,31 @@
 PODS:
-  - Client-Test-New (0.1.0)
+  - Client-Test-New (1.0.0):
+    - MobilliumQRCodeReader
+    - Socket.IO-Client-Swift
+  - MobilliumQRCodeReader (1.1.1)
+  - Socket.IO-Client-Swift (16.0.1):
+    - Starscream (~> 4.0)
+  - Starscream (4.0.4)
 
 DEPENDENCIES:
   - Client-Test-New (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MobilliumQRCodeReader
+    - Socket.IO-Client-Swift
+    - Starscream
 
 EXTERNAL SOURCES:
   Client-Test-New:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Client-Test-New: d95d81b457ab2c6b12f7b022516bdbf4190d1768
+  Client-Test-New: f882fb065381d9f797396c6ce07c29691a698f24
+  MobilliumQRCodeReader: d819ebfb3efdbb8e2c7afd72eab7ccfa57636886
+  Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 969227cdccbd3931eb69f1dab8171df9091d4d1a
+PODFILE CHECKSUM: 3c5e31f296788b99947996abf9aa19a2daffce2d
 
 COCOAPODS: 1.12.1

@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "Client_Test-Swift.h"
+#import "Client_Test.h"
+#import "Client_Test-Swift.h"
+#import "Client_Test.h"
 
 FOUNDATION_EXPORT double Client_Test_NewVersionNumber;
 FOUNDATION_EXPORT const unsigned char Client_Test_NewVersionString[];

@@ -1,9 +1,9 @@
 {
   "name": "Client-Test-New",
-  "version": "0.1.0",
-  "summary": "A short description of Client-Test-New.",
+  "version": "1.0.0",
+  "summary": "This is an awesome framework for Client-Test-New.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Ayush Kumar Sethi/Client-Test-New",
+  "homepage": "https://github.com/ayush-apty/Client-Test-New",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "Ayush Kumar Sethi": "ayush.sethi@apty.io"
   },
   "source": {
-    "git": "https://github.com/Ayush Kumar Sethi/Client-Test-New.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ayush-apty/Client-Test-New.git",
+    "tag": "1.0.0"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "Client-Test-New/Classes/**/*"
+  "dependencies": {
+    "MobilliumQRCodeReader": [
+
+    ],
+    "Socket.IO-Client-Swift": [
+
+    ]
+  },
+  "vendored_frameworks": "Client-Test.xcframework",
+  "source_files": "Client-Test-New/Classes/**/*",
+  "swift_version": "5.0"
 }
