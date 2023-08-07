@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Client-Test-New'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This is an awesome framework for Client-Test-New.'
 
 # This description is used to generate tags and improve search results.
