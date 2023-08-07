@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import Client_Test_New
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let str = "AAAA"
+        
+        print(str.isEmpty)
+        
     }
 
     override func didReceiveMemoryWarning() {

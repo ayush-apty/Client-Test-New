@@ -1,0 +1,22 @@
+{
+  "name": "Client-Test-New",
+  "version": "0.1.0",
+  "summary": "A short description of Client-Test-New.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ayush Kumar Sethi/Client-Test-New",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ayush Kumar Sethi": "ayush.sethi@apty.io"
+  },
+  "source": {
+    "git": "https://github.com/Ayush Kumar Sethi/Client-Test-New.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Client-Test-New/Classes/**/*"
+}

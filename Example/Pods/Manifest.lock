@@ -1,0 +1,16 @@
+PODS:
+  - Client-Test-New (0.1.0)
+
+DEPENDENCIES:
+  - Client-Test-New (from `../`)
+
+EXTERNAL SOURCES:
+  Client-Test-New:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Client-Test-New: d95d81b457ab2c6b12f7b022516bdbf4190d1768
+
+PODFILE CHECKSUM: 969227cdccbd3931eb69f1dab8171df9091d4d1a
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,206 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Client_Test
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import Client_Test
+import CoreGraphics
+import Foundation
+import MobilliumQRCodeReader
+import SocketIO
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+extension Swift.String {
+  public var base64Decoded: Swift.String? {
+    get
+  }
+  public var base64Encoded: Swift.String? {
+    get
+  }
+  public var charactersArray: [Swift.Character] {
+    get
+  }
+  public var camelCased: Swift.String {
+    get
+  }
+  public var containEmoji: Swift.Bool {
+    get
+  }
+  public var firstCharacterAsString: Swift.String? {
+    get
+  }
+  public var hasLetters: Swift.Bool {
+    get
+  }
+  public var hasNumbers: Swift.Bool {
+    get
+  }
+  public var isAlphabetic: Swift.Bool {
+    get
+  }
+  public var isAlphaNumeric: Swift.Bool {
+    get
+  }
+  public var isPalindrome: Swift.Bool {
+    get
+  }
+  public var isValidEmail: Swift.Bool {
+    get
+  }
+  public var isValidUrl: Swift.Bool {
+    get
+  }
+  public var isValidSchemedUrl: Swift.Bool {
+    get
+  }
+  public var isValidHttpsUrl: Swift.Bool {
+    get
+  }
+  public var isValidHttpUrl: Swift.Bool {
+    get
+  }
+  public var isValidFileUrl: Swift.Bool {
+    get
+  }
+  public var isNumeric: Swift.Bool {
+    get
+  }
+  public var isDigits: Swift.Bool {
+    get
+  }
+  public var lastCharacterAsString: Swift.String? {
+    get
+  }
+  public var latinized: Swift.String {
+    get
+  }
+  public var bool: Swift.Bool? {
+    get
+  }
+  public var date: Foundation.Date? {
+    get
+  }
+  public var dateTime: Foundation.Date? {
+    get
+  }
+  public var int: Swift.Int? {
+    get
+  }
+  public static func loremIpsum(ofLength length: Swift.Int = 445) -> Swift.String
+  public var url: Foundation.URL? {
+    get
+  }
+  public var trimmed: Swift.String {
+    get
+  }
+  public var urlDecoded: Swift.String {
+    get
+  }
+  public var urlEncoded: Swift.String {
+    get
+  }
+  public var regexEscaped: Swift.String {
+    get
+  }
+  public var withoutSpacesAndNewLines: Swift.String {
+    get
+  }
+  public var isWhitespace: Swift.Bool {
+    get
+  }
+  public var isSpelledCorrectly: Swift.Bool {
+    get
+  }
+}
+extension Swift.String {
+  public func float(locale: Foundation.Locale = .current) -> Swift.Float?
+  public func double(locale: Foundation.Locale = .current) -> Swift.Double?
+  public func cgFloat(locale: Foundation.Locale = .current) -> CoreFoundation.CGFloat?
+  public func lines() -> [Swift.String]
+  public func localized(comment: Swift.String = "") -> Swift.String
+  public func formatLocalized(comment: Swift.String = "", _ arguments: any Swift.CVarArg...) -> Swift.String
+  public func mostCommonCharacter() -> Swift.Character?
+  public func unicodeArray() -> [Swift.Int]
+  public func words() -> [Swift.String]
+  public func wordCount() -> Swift.Int
+  public func toSlug() -> Swift.String
+  public subscript(safe index: Swift.Int) -> Swift.Character? {
+    get
+  }
+  public func copyToPasteboard()
+  @discardableResult
+  public mutating func camelize() -> Swift.String
+  public mutating func firstCharacterUppercased()
+  public func hasUniqueCharacters() -> Swift.Bool
+  public func contains(_ string: Swift.String, caseSensitive: Swift.Bool = true) -> Swift.Bool
+  public func count(of string: Swift.String, caseSensitive: Swift.Bool = true) -> Swift.Int
+  public func ends(with suffix: Swift.String, caseSensitive: Swift.Bool = true) -> Swift.Bool
+  @discardableResult
+  public mutating func latinize() -> Swift.String
+  public static func random(ofLength length: Swift.Int) -> Swift.String
+  @discardableResult
+  public mutating func reverse() -> Swift.String
+  public func starts(with prefix: Swift.String, caseSensitive: Swift.Bool = true) -> Swift.Bool
+  public func date(withFormat format: Swift.String) -> Foundation.Date?
+  @discardableResult
+  public mutating func trim() -> Swift.String
+  @discardableResult
+  public mutating func truncate(toLength length: Swift.Int, trailing: Swift.String? = "...") -> Swift.String
+  public func truncated(toLength length: Swift.Int, trailing: Swift.String? = "...") -> Swift.String
+  @discardableResult
+  public mutating func urlDecode() -> Swift.String
+  @discardableResult
+  public mutating func urlEncode() -> Swift.String
+  public func matches(pattern: Swift.String) -> Swift.Bool
+  public func matches(regex: Foundation.NSRegularExpression, options: Foundation.NSRegularExpression.MatchingOptions = []) -> Swift.Bool
+  public static func ~= (lhs: Swift.String, rhs: Swift.String) -> Swift.Bool
+  public static func ~= (lhs: Foundation.NSRegularExpression, rhs: Swift.String) -> Swift.Bool
+  public func replacingOccurrences(of regex: Foundation.NSRegularExpression, with template: Swift.String, options: Foundation.NSRegularExpression.MatchingOptions = [], range searchRange: Swift.Range<Swift.String.Index>? = nil) -> Swift.String
+  @discardableResult
+  public mutating func padStart(_ length: Swift.Int, with string: Swift.String = " ") -> Swift.String
+  public func paddingStart(_ length: Swift.Int, with string: Swift.String = " ") -> Swift.String
+  @discardableResult
+  public mutating func padEnd(_ length: Swift.Int, with string: Swift.String = " ") -> Swift.String
+  public func paddingEnd(_ length: Swift.Int, with string: Swift.String = " ") -> Swift.String
+  public func removingPrefix(_ prefix: Swift.String) -> Swift.String
+  public func removingSuffix(_ suffix: Swift.String) -> Swift.String
+  public func withPrefix(_ prefix: Swift.String) -> Swift.String
+}
+extension Swift.String {
+  public init?(base64: Swift.String)
+}
+extension Swift.String {
+  public static func * (lhs: Swift.String, rhs: Swift.Int) -> Swift.String
+  public static func * (lhs: Swift.Int, rhs: Swift.String) -> Swift.String
+}
+extension Swift.String {
+  public var nsString: Foundation.NSString {
+    get
+  }
+  public var fullNSRange: Foundation.NSRange {
+    get
+  }
+  public var lastPathComponent: Swift.String {
+    get
+  }
+  public var pathExtension: Swift.String {
+    get
+  }
+  public var deletingLastPathComponent: Swift.String {
+    get
+  }
+  public var deletingPathExtension: Swift.String {
+    get
+  }
+  public var pathComponents: [Swift.String] {
+    get
+  }
+  public func range(from nsRange: Foundation.NSRange) -> Swift.Range<Swift.String.Index>
+  public func nsRange(from range: Swift.Range<Swift.String.Index>) -> Foundation.NSRange
+  public func appendingPathComponent(_ str: Swift.String) -> Swift.String
+  public func appendingPathExtension(_ str: Swift.String) -> Swift.String?
+  public subscript(bounds: Foundation.NSRange) -> Swift.Substring {
+    get
+  }
+}

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Client-Test-New'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Client-Test-New.'
+  s.version          = '1.0.0'
+  s.summary          = 'This is an awesome framework for Client-Test-New.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,15 +21,21 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Ayush Kumar Sethi/Client-Test-New'
+  s.homepage         = 'https://github.com/ayush-apty/Client-Test-New'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ayush Kumar Sethi' => 'ayush.sethi@apty.io' }
-  s.source           = { :git => 'https://github.com/Ayush Kumar Sethi/Client-Test-New.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ayush-apty/Client-Test-New.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  
+  s.swift_versions    = '5.0'
+  s.ios.deployment_target = '12.0'
+  
+  s.dependency 'MobilliumQRCodeReader'
+  s.dependency 'Socket.IO-Client-Swift'
 
-  s.ios.deployment_target = '10.0'
-
+  s.vendored_frameworks = 'Client-Test.xcframework'
+  
   s.source_files = 'Client-Test-New/Classes/**/*'
   
   # s.resource_bundles = {

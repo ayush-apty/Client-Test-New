@@ -1,0 +1,5047 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Client_Test"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Client_Test"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "Client_Test"
+      },
+      {
+        "kind": "Import",
+        "name": "SocketIO",
+        "printedName": "SocketIO",
+        "declKind": "Import",
+        "moduleName": "Client_Test"
+      },
+      {
+        "kind": "Import",
+        "name": "MobilliumQRCodeReader",
+        "printedName": "MobilliumQRCodeReader",
+        "declKind": "Import",
+        "moduleName": "Client_Test"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "base64Decoded",
+            "printedName": "base64Decoded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE13base64DecodedSSSgvp",
+            "mangledName": "$sSS11Client_TestE13base64DecodedSSSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE13base64DecodedSSSgvg",
+                "mangledName": "$sSS11Client_TestE13base64DecodedSSSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "base64Encoded",
+            "printedName": "base64Encoded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE13base64EncodedSSSgvp",
+            "mangledName": "$sSS11Client_TestE13base64EncodedSSSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE13base64EncodedSSSgvg",
+                "mangledName": "$sSS11Client_TestE13base64EncodedSSSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "charactersArray",
+            "printedName": "charactersArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Character]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE15charactersArraySaySJGvp",
+            "mangledName": "$sSS11Client_TestE15charactersArraySaySJGvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Character]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Character",
+                        "printedName": "Swift.Character",
+                        "usr": "s:SJ"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE15charactersArraySaySJGvg",
+                "mangledName": "$sSS11Client_TestE15charactersArraySaySJGvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "camelCased",
+            "printedName": "camelCased",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10camelCasedSSvp",
+            "mangledName": "$sSS11Client_TestE10camelCasedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10camelCasedSSvg",
+                "mangledName": "$sSS11Client_TestE10camelCasedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "containEmoji",
+            "printedName": "containEmoji",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12containEmojiSbvp",
+            "mangledName": "$sSS11Client_TestE12containEmojiSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12containEmojiSbvg",
+                "mangledName": "$sSS11Client_TestE12containEmojiSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "firstCharacterAsString",
+            "printedName": "firstCharacterAsString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE22firstCharacterAsStringSSSgvp",
+            "mangledName": "$sSS11Client_TestE22firstCharacterAsStringSSSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE22firstCharacterAsStringSSSgvg",
+                "mangledName": "$sSS11Client_TestE22firstCharacterAsStringSSSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasLetters",
+            "printedName": "hasLetters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10hasLettersSbvp",
+            "mangledName": "$sSS11Client_TestE10hasLettersSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10hasLettersSbvg",
+                "mangledName": "$sSS11Client_TestE10hasLettersSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hasNumbers",
+            "printedName": "hasNumbers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10hasNumbersSbvp",
+            "mangledName": "$sSS11Client_TestE10hasNumbersSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10hasNumbersSbvg",
+                "mangledName": "$sSS11Client_TestE10hasNumbersSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAlphabetic",
+            "printedName": "isAlphabetic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12isAlphabeticSbvp",
+            "mangledName": "$sSS11Client_TestE12isAlphabeticSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12isAlphabeticSbvg",
+                "mangledName": "$sSS11Client_TestE12isAlphabeticSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAlphaNumeric",
+            "printedName": "isAlphaNumeric",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE14isAlphaNumericSbvp",
+            "mangledName": "$sSS11Client_TestE14isAlphaNumericSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE14isAlphaNumericSbvg",
+                "mangledName": "$sSS11Client_TestE14isAlphaNumericSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPalindrome",
+            "printedName": "isPalindrome",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12isPalindromeSbvp",
+            "mangledName": "$sSS11Client_TestE12isPalindromeSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12isPalindromeSbvg",
+                "mangledName": "$sSS11Client_TestE12isPalindromeSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidEmail",
+            "printedName": "isValidEmail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12isValidEmailSbvp",
+            "mangledName": "$sSS11Client_TestE12isValidEmailSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12isValidEmailSbvg",
+                "mangledName": "$sSS11Client_TestE12isValidEmailSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidUrl",
+            "printedName": "isValidUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10isValidUrlSbvp",
+            "mangledName": "$sSS11Client_TestE10isValidUrlSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10isValidUrlSbvg",
+                "mangledName": "$sSS11Client_TestE10isValidUrlSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidSchemedUrl",
+            "printedName": "isValidSchemedUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE17isValidSchemedUrlSbvp",
+            "mangledName": "$sSS11Client_TestE17isValidSchemedUrlSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE17isValidSchemedUrlSbvg",
+                "mangledName": "$sSS11Client_TestE17isValidSchemedUrlSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidHttpsUrl",
+            "printedName": "isValidHttpsUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE15isValidHttpsUrlSbvp",
+            "mangledName": "$sSS11Client_TestE15isValidHttpsUrlSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE15isValidHttpsUrlSbvg",
+                "mangledName": "$sSS11Client_TestE15isValidHttpsUrlSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidHttpUrl",
+            "printedName": "isValidHttpUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE14isValidHttpUrlSbvp",
+            "mangledName": "$sSS11Client_TestE14isValidHttpUrlSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE14isValidHttpUrlSbvg",
+                "mangledName": "$sSS11Client_TestE14isValidHttpUrlSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isValidFileUrl",
+            "printedName": "isValidFileUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE14isValidFileUrlSbvp",
+            "mangledName": "$sSS11Client_TestE14isValidFileUrlSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE14isValidFileUrlSbvg",
+                "mangledName": "$sSS11Client_TestE14isValidFileUrlSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isNumeric",
+            "printedName": "isNumeric",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE9isNumericSbvp",
+            "mangledName": "$sSS11Client_TestE9isNumericSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE9isNumericSbvg",
+                "mangledName": "$sSS11Client_TestE9isNumericSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDigits",
+            "printedName": "isDigits",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE8isDigitsSbvp",
+            "mangledName": "$sSS11Client_TestE8isDigitsSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE8isDigitsSbvg",
+                "mangledName": "$sSS11Client_TestE8isDigitsSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastCharacterAsString",
+            "printedName": "lastCharacterAsString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE21lastCharacterAsStringSSSgvp",
+            "mangledName": "$sSS11Client_TestE21lastCharacterAsStringSSSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE21lastCharacterAsStringSSSgvg",
+                "mangledName": "$sSS11Client_TestE21lastCharacterAsStringSSSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latinized",
+            "printedName": "latinized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE9latinizedSSvp",
+            "mangledName": "$sSS11Client_TestE9latinizedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE9latinizedSSvg",
+                "mangledName": "$sSS11Client_TestE9latinizedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bool",
+            "printedName": "bool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE4boolSbSgvp",
+            "mangledName": "$sSS11Client_TestE4boolSbSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE4boolSbSgvg",
+                "mangledName": "$sSS11Client_TestE4boolSbSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "date",
+            "printedName": "date",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE4date10Foundation4DateVSgvp",
+            "mangledName": "$sSS11Client_TestE4date10Foundation4DateVSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE4date10Foundation4DateVSgvg",
+                "mangledName": "$sSS11Client_TestE4date10Foundation4DateVSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dateTime",
+            "printedName": "dateTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE8dateTime10Foundation4DateVSgvp",
+            "mangledName": "$sSS11Client_TestE8dateTime10Foundation4DateVSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Date?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Date",
+                        "printedName": "Foundation.Date",
+                        "usr": "s:10Foundation4DateV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE8dateTime10Foundation4DateVSgvg",
+                "mangledName": "$sSS11Client_TestE8dateTime10Foundation4DateVSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "int",
+            "printedName": "int",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE3intSiSgvp",
+            "mangledName": "$sSS11Client_TestE3intSiSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE3intSiSgvg",
+                "mangledName": "$sSS11Client_TestE3intSiSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "loremIpsum",
+            "printedName": "loremIpsum(ofLength:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE10loremIpsum8ofLengthSSSi_tFZ",
+            "mangledName": "$sSS11Client_TestE10loremIpsum8ofLengthSSSi_tFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE3url10Foundation3URLVSgvp",
+            "mangledName": "$sSS11Client_TestE3url10Foundation3URLVSgvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE3url10Foundation3URLVSgvg",
+                "mangledName": "$sSS11Client_TestE3url10Foundation3URLVSgvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trimmed",
+            "printedName": "trimmed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE7trimmedSSvp",
+            "mangledName": "$sSS11Client_TestE7trimmedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE7trimmedSSvg",
+                "mangledName": "$sSS11Client_TestE7trimmedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlDecoded",
+            "printedName": "urlDecoded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10urlDecodedSSvp",
+            "mangledName": "$sSS11Client_TestE10urlDecodedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10urlDecodedSSvg",
+                "mangledName": "$sSS11Client_TestE10urlDecodedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlEncoded",
+            "printedName": "urlEncoded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE10urlEncodedSSvp",
+            "mangledName": "$sSS11Client_TestE10urlEncodedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE10urlEncodedSSvg",
+                "mangledName": "$sSS11Client_TestE10urlEncodedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "regexEscaped",
+            "printedName": "regexEscaped",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12regexEscapedSSvp",
+            "mangledName": "$sSS11Client_TestE12regexEscapedSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12regexEscapedSSvg",
+                "mangledName": "$sSS11Client_TestE12regexEscapedSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "withoutSpacesAndNewLines",
+            "printedName": "withoutSpacesAndNewLines",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE24withoutSpacesAndNewLinesSSvp",
+            "mangledName": "$sSS11Client_TestE24withoutSpacesAndNewLinesSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE24withoutSpacesAndNewLinesSSvg",
+                "mangledName": "$sSS11Client_TestE24withoutSpacesAndNewLinesSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isWhitespace",
+            "printedName": "isWhitespace",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE12isWhitespaceSbvp",
+            "mangledName": "$sSS11Client_TestE12isWhitespaceSbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE12isWhitespaceSbvg",
+                "mangledName": "$sSS11Client_TestE12isWhitespaceSbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSpelledCorrectly",
+            "printedName": "isSpelledCorrectly",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE18isSpelledCorrectlySbvp",
+            "mangledName": "$sSS11Client_TestE18isSpelledCorrectlySbvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE18isSpelledCorrectlySbvg",
+                "mangledName": "$sSS11Client_TestE18isSpelledCorrectlySbvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "float",
+            "printedName": "float(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Float?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE5float6localeSfSg10Foundation6LocaleV_tF",
+            "mangledName": "$sSS11Client_TestE5float6localeSfSg10Foundation6LocaleV_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "double",
+            "printedName": "double(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE6double6localeSdSg10Foundation6LocaleV_tF",
+            "mangledName": "$sSS11Client_TestE6double6localeSdSg10Foundation6LocaleV_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cgFloat",
+            "printedName": "cgFloat(locale:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Locale",
+                "printedName": "Foundation.Locale",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation6LocaleV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE7cgFloat6locale14CoreFoundation7CGFloatVSg0G06LocaleV_tF",
+            "mangledName": "$sSS11Client_TestE7cgFloat6locale12CoreGraphics7CGFloatVSg10Foundation6LocaleV_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "lines",
+            "printedName": "lines()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE5linesSaySSGyF",
+            "mangledName": "$sSS11Client_TestE5linesSaySSGyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "localized",
+            "printedName": "localized(comment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE9localized7commentS2S_tF",
+            "mangledName": "$sSS11Client_TestE9localized7commentS2S_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatLocalized",
+            "printedName": "formatLocalized(comment:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.CVarArg]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVarArg",
+                    "printedName": "Swift.CVarArg",
+                    "usr": "s:s7CVarArgP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE15formatLocalized7comment_S2S_s7CVarArg_pdtF",
+            "mangledName": "$sSS11Client_TestE15formatLocalized7comment_S2S_s7CVarArg_pdtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mostCommonCharacter",
+            "printedName": "mostCommonCharacter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Character?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE19mostCommonCharacterSJSgyF",
+            "mangledName": "$sSS11Client_TestE19mostCommonCharacterSJSgyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unicodeArray",
+            "printedName": "unicodeArray()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE12unicodeArraySaySiGyF",
+            "mangledName": "$sSS11Client_TestE12unicodeArraySaySiGyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "words",
+            "printedName": "words()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE5wordsSaySSGyF",
+            "mangledName": "$sSS11Client_TestE5wordsSaySSGyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "wordCount",
+            "printedName": "wordCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE9wordCountSiyF",
+            "mangledName": "$sSS11Client_TestE9wordCountSiyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toSlug",
+            "printedName": "toSlug()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE6toSlugSSyF",
+            "mangledName": "$sSS11Client_TestE6toSlugSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Character?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:SS11Client_TestE4safeSJSgSi_tcip",
+            "mangledName": "$sSS11Client_TestE4safeSJSgSi_tcip",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Character?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Character",
+                        "printedName": "Swift.Character",
+                        "usr": "s:SJ"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE4safeSJSgSi_tcig",
+                "mangledName": "$sSS11Client_TestE4safeSJSgSi_tcig",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "copyToPasteboard",
+            "printedName": "copyToPasteboard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE16copyToPasteboardyyF",
+            "mangledName": "$sSS11Client_TestE16copyToPasteboardyyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "camelize",
+            "printedName": "camelize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE8camelizeSSyF",
+            "mangledName": "$sSS11Client_TestE8camelizeSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "firstCharacterUppercased",
+            "printedName": "firstCharacterUppercased()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE24firstCharacterUppercasedyyF",
+            "mangledName": "$sSS11Client_TestE24firstCharacterUppercasedyyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasUniqueCharacters",
+            "printedName": "hasUniqueCharacters()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE19hasUniqueCharactersSbyF",
+            "mangledName": "$sSS11Client_TestE19hasUniqueCharactersSbyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contains",
+            "printedName": "contains(_:caseSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE8contains_13caseSensitiveSbSS_SbtF",
+            "mangledName": "$sSS11Client_TestE8contains_13caseSensitiveSbSS_SbtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "count",
+            "printedName": "count(of:caseSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE5count2of13caseSensitiveSiSS_SbtF",
+            "mangledName": "$sSS11Client_TestE5count2of13caseSensitiveSiSS_SbtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ends",
+            "printedName": "ends(with:caseSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE4ends4with13caseSensitiveSbSS_SbtF",
+            "mangledName": "$sSS11Client_TestE4ends4with13caseSensitiveSbSS_SbtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "latinize",
+            "printedName": "latinize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE8latinizeSSyF",
+            "mangledName": "$sSS11Client_TestE8latinizeSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "random",
+            "printedName": "random(ofLength:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE6random8ofLengthSSSi_tFZ",
+            "mangledName": "$sSS11Client_TestE6random8ofLengthSSSi_tFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reverse",
+            "printedName": "reverse()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE7reverseSSyF",
+            "mangledName": "$sSS11Client_TestE7reverseSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "starts",
+            "printedName": "starts(with:caseSensitive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE6starts4with13caseSensitiveSbSS_SbtF",
+            "mangledName": "$sSS11Client_TestE6starts4with13caseSensitiveSbSS_SbtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "date",
+            "printedName": "date(withFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE4date10withFormat10Foundation4DateVSgSS_tF",
+            "mangledName": "$sSS11Client_TestE4date10withFormat10Foundation4DateVSgSS_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trim",
+            "printedName": "trim()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE4trimSSyF",
+            "mangledName": "$sSS11Client_TestE4trimSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "truncate",
+            "printedName": "truncate(toLength:trailing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE8truncate8toLength8trailingSSSi_SSSgtF",
+            "mangledName": "$sSS11Client_TestE8truncate8toLength8trailingSSSi_SSSgtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "truncated",
+            "printedName": "truncated(toLength:trailing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE9truncated8toLength8trailingSSSi_SSSgtF",
+            "mangledName": "$sSS11Client_TestE9truncated8toLength8trailingSSSi_SSSgtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlDecode",
+            "printedName": "urlDecode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE9urlDecodeSSyF",
+            "mangledName": "$sSS11Client_TestE9urlDecodeSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlEncode",
+            "printedName": "urlEncode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE9urlEncodeSSyF",
+            "mangledName": "$sSS11Client_TestE9urlEncodeSSyF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "matches",
+            "printedName": "matches(pattern:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE7matches7patternSbSS_tF",
+            "mangledName": "$sSS11Client_TestE7matches7patternSbSS_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "matches",
+            "printedName": "matches(regex:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSRegularExpression",
+                "printedName": "Foundation.NSRegularExpression",
+                "usr": "c:objc(cs)NSRegularExpression"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MatchingOptions",
+                "printedName": "Foundation.NSRegularExpression.MatchingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSMatchingOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE7matches5regex7optionsSbSo19NSRegularExpressionC_So17NSMatchingOptionsVtF",
+            "mangledName": "$sSS11Client_TestE7matches5regex7optionsSbSo19NSRegularExpressionC_So17NSMatchingOptionsVtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "~=",
+            "printedName": "~=(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE2teoiySbSS_SStFZ",
+            "mangledName": "$sSS11Client_TestE2teoiySbSS_SStFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "~=",
+            "printedName": "~=(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSRegularExpression",
+                "printedName": "Foundation.NSRegularExpression",
+                "usr": "c:objc(cs)NSRegularExpression"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE2teoiySbSo19NSRegularExpressionC_SStFZ",
+            "mangledName": "$sSS11Client_TestE2teoiySbSo19NSRegularExpressionC_SStFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "replacingOccurrences",
+            "printedName": "replacingOccurrences(of:with:options:range:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSRegularExpression",
+                "printedName": "Foundation.NSRegularExpression",
+                "usr": "c:objc(cs)NSRegularExpression"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MatchingOptions",
+                "printedName": "Foundation.NSRegularExpression.MatchingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSMatchingOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Range<Swift.String.Index>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.String.Index>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Index",
+                        "printedName": "Swift.String.Index",
+                        "usr": "s:SS5IndexV"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE20replacingOccurrences2of4with7options5rangeSSSo19NSRegularExpressionC_SSSo17NSMatchingOptionsVSnySS5IndexVGSgtF",
+            "mangledName": "$sSS11Client_TestE20replacingOccurrences2of4with7options5rangeSSSo19NSRegularExpressionC_SSSo17NSMatchingOptionsVSnySS5IndexVGSgtF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padStart",
+            "printedName": "padStart(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE8padStart_4withSSSi_SStF",
+            "mangledName": "$sSS11Client_TestE8padStart_4withSSSi_SStF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paddingStart",
+            "printedName": "paddingStart(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE12paddingStart_4withSSSi_SStF",
+            "mangledName": "$sSS11Client_TestE12paddingStart_4withSSSi_SStF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padEnd",
+            "printedName": "padEnd(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE6padEnd_4withSSSi_SStF",
+            "mangledName": "$sSS11Client_TestE6padEnd_4withSSSi_SStF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "Mutating",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "paddingEnd",
+            "printedName": "paddingEnd(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE10paddingEnd_4withSSSi_SStF",
+            "mangledName": "$sSS11Client_TestE10paddingEnd_4withSSSi_SStF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removingPrefix",
+            "printedName": "removingPrefix(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE14removingPrefixyS2SF",
+            "mangledName": "$sSS11Client_TestE14removingPrefixyS2SF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removingSuffix",
+            "printedName": "removingSuffix(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE14removingSuffixyS2SF",
+            "mangledName": "$sSS11Client_TestE14removingSuffixyS2SF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withPrefix",
+            "printedName": "withPrefix(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE10withPrefixyS2SF",
+            "mangledName": "$sSS11Client_TestE10withPrefixyS2SF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(base64:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:SS11Client_TestE6base64SSSgSS_tcfc",
+            "mangledName": "$sSS11Client_TestE6base64SSSgSS_tcfc",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "*",
+            "printedName": "*(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE1moiyS2S_SitFZ",
+            "mangledName": "$sSS11Client_TestE1moiyS2S_SitFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "*",
+            "printedName": "*(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE1moiySSSi_SStFZ",
+            "mangledName": "$sSS11Client_TestE1moiySSSi_SStFZ",
+            "moduleName": "Client_Test",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "nsString",
+            "printedName": "nsString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSString",
+                "printedName": "Foundation.NSString",
+                "usr": "c:objc(cs)NSString"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE8nsStringSo8NSStringCvp",
+            "mangledName": "$sSS11Client_TestE8nsStringSo8NSStringCvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE8nsStringSo8NSStringCvg",
+                "mangledName": "$sSS11Client_TestE8nsStringSo8NSStringCvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullNSRange",
+            "printedName": "fullNSRange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE11fullNSRangeSo01_D0Vvp",
+            "mangledName": "$sSS11Client_TestE11fullNSRangeSo01_D0Vvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_NSRange",
+                    "printedName": "Foundation._NSRange",
+                    "usr": "c:@S@_NSRange"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE11fullNSRangeSo01_D0Vvg",
+                "mangledName": "$sSS11Client_TestE11fullNSRangeSo01_D0Vvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastPathComponent",
+            "printedName": "lastPathComponent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE17lastPathComponentSSvp",
+            "mangledName": "$sSS11Client_TestE17lastPathComponentSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE17lastPathComponentSSvg",
+                "mangledName": "$sSS11Client_TestE17lastPathComponentSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pathExtension",
+            "printedName": "pathExtension",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE13pathExtensionSSvp",
+            "mangledName": "$sSS11Client_TestE13pathExtensionSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE13pathExtensionSSvg",
+                "mangledName": "$sSS11Client_TestE13pathExtensionSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deletingLastPathComponent",
+            "printedName": "deletingLastPathComponent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE25deletingLastPathComponentSSvp",
+            "mangledName": "$sSS11Client_TestE25deletingLastPathComponentSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE25deletingLastPathComponentSSvg",
+                "mangledName": "$sSS11Client_TestE25deletingLastPathComponentSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deletingPathExtension",
+            "printedName": "deletingPathExtension",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE21deletingPathExtensionSSvp",
+            "mangledName": "$sSS11Client_TestE21deletingPathExtensionSSvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE21deletingPathExtensionSSvg",
+                "mangledName": "$sSS11Client_TestE21deletingPathExtensionSSvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pathComponents",
+            "printedName": "pathComponents",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS11Client_TestE14pathComponentsSaySSGvp",
+            "mangledName": "$sSS11Client_TestE14pathComponentsSaySSGvp",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestE14pathComponentsSaySSGvg",
+                "mangledName": "$sSS11Client_TestE14pathComponentsSaySSGvg",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "range",
+            "printedName": "range(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Range",
+                "printedName": "Swift.Range<Swift.String.Index>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ],
+                "usr": "s:Sn"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE5range4fromSnySS5IndexVGSo8_NSRangeV_tF",
+            "mangledName": "$sSS11Client_TestE5range4fromSnySS5IndexVGSo8_NSRangeV_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nsRange",
+            "printedName": "nsRange(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Range",
+                "printedName": "Swift.Range<Swift.String.Index>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ],
+                "usr": "s:Sn"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE7nsRange4fromSo8_NSRangeVSnySS5IndexVG_tF",
+            "mangledName": "$sSS11Client_TestE7nsRange4fromSo8_NSRangeVSnySS5IndexVG_tF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendingPathComponent",
+            "printedName": "appendingPathComponent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE22appendingPathComponentyS2SF",
+            "mangledName": "$sSS11Client_TestE22appendingPathComponentyS2SF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendingPathExtension",
+            "printedName": "appendingPathExtension(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS11Client_TestE22appendingPathExtensionySSSgSSF",
+            "mangledName": "$sSS11Client_TestE22appendingPathExtensionySSSgSSF",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Substring",
+                "printedName": "Swift.Substring",
+                "usr": "s:Ss"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "_NSRange",
+                "printedName": "Foundation._NSRange",
+                "usr": "c:@S@_NSRange"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:SS11Client_TestEySsSo8_NSRangeVcip",
+            "mangledName": "$sSS11Client_TestEySsSo8_NSRangeVcip",
+            "moduleName": "Client_Test",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_NSRange",
+                    "printedName": "Foundation._NSRange",
+                    "usr": "c:@S@_NSRange"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS11Client_TestEySsSo8_NSRangeVcig",
+                "mangledName": "$sSS11Client_TestEySsSo8_NSRangeVcig",
+                "moduleName": "Client_Test",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SocketData",
+            "printedName": "SocketData",
+            "usr": "s:8SocketIO0A4DataP",
+            "mangledName": "$s8SocketIO0A4DataP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 774,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 830,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1920,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2010,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2085,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2613,
+      "length": 7,
+      "value": "0x1F600"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2623,
+      "length": 7,
+      "value": "0x1F64F"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2662,
+      "length": 7,
+      "value": "0x1F300"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2672,
+      "length": 7,
+      "value": "0x1F5FF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2730,
+      "length": 7,
+      "value": "0x1F680"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2740,
+      "length": 7,
+      "value": "0x1F6FF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2787,
+      "length": 7,
+      "value": "0x1F1E6"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2797,
+      "length": 7,
+      "value": "0x1F1FF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2849,
+      "length": 6,
+      "value": "0x2600"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2858,
+      "length": 6,
+      "value": "0x26FF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 6,
+      "value": "0x2700"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2908,
+      "length": 6,
+      "value": "0x27BF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2945,
+      "length": 7,
+      "value": "0xE0020"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2955,
+      "length": 7,
+      "value": "0xE007F"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 6,
+      "value": "0xFE00"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2998,
+      "length": 6,
+      "value": "0xFE0F"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3046,
+      "length": 7,
+      "value": "0x1F900"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3056,
+      "length": 7,
+      "value": "0x1F9FF"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3122,
+      "length": 7,
+      "value": "127000"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3132,
+      "length": 7,
+      "value": "127600"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3186,
+      "length": 5,
+      "value": "65024"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3194,
+      "length": 5,
+      "value": "65039"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3240,
+      "length": 4,
+      "value": "9100"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3247,
+      "length": 4,
+      "value": "9300"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3284,
+      "length": 4,
+      "value": "8400"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3291,
+      "length": 4,
+      "value": "8447"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3363,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5303,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5707,
+      "length": 27,
+      "value": "\"http:\/\/18.204.203.59:4000\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5752,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5890,
+      "length": 18,
+      "value": "\"socket connected\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6118,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6209,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 6895,
+      "length": 509,
+      "value": "\"^(?:[\\p{L}0-9!#$%\\&'*+\/=?\\^_`{|}~-]+(?:\\.[\\p{L}0-9!#$%\\&'*+\/=?\\^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[\\p{L}0-9](?:[a-z0-9-]*[\\p{L}0-9])?\\.)+[\\p{L}0-9](?:[\\p{L}0-9-]*[\\p{L}0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[\\p{L}0-9-]*[\\p{L}0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])$\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8159,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8466,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8503,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8773,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 8810,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9078,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11066,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11074,
+      "length": 5,
+      "value": "\"yes\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11081,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11105,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11123,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11132,
+      "length": 4,
+      "value": "\"no\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11138,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11162,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 11626,
+      "length": 12,
+      "value": "\"yyyy-MM-dd\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12125,
+      "length": 21,
+      "value": "\"yyyy-MM-dd HH:mm:ss\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12659,
+      "length": 3,
+      "value": "445"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12715,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 12781,
+      "length": 469,
+      "value": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15153,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15164,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15193,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15835,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 15899,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16411,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16880,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17381,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 18183,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 18674,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19295,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21223,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21234,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21372,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21390,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21429,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21447,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21588,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21705,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21823,
+      "length": 4,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 21835,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 23040,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 23119,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 23130,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 23193,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 23205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23975,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24125,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24203,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24740,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25398,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25526,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26087,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 26952,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 26976,
+      "length": 64,
+      "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 27068,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27088,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27881,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 29506,
+      "length": 5,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 29688,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 30260,
+      "length": 5,
+      "value": "\"...\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 30419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "Array",
+      "offset": 32041,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "Array",
+      "offset": 33875,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 34573,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 35146,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 36090,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 36651,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39458,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 39474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39895,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 39911,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 41417,
+      "length": 44,
+      "value": "\"Failed to find range \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 41449,
+      "length": 2,
+      "value": "\" in \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 41460,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 43252,
+      "length": 43,
+      "value": "\"Failed to find range \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 43283,
+      "length": 2,
+      "value": "\" in \""
+    },
+    {
+      "filePath": "\/Users\/ayushsethi\/AKS\/SDK-NEW\/src-xcf\/Client-Test\/Client-Test\/StringExtensions.swift",
+      "kind": "StringLiteral",
+      "offset": 43294,
+      "length": 4,
+      "value": "\"\""
+    }
+  ]
+}

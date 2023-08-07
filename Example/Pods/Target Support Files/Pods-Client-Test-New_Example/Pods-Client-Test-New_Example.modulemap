@@ -1,0 +1,6 @@
+framework module Pods_Client_Test_New_Example {
+  umbrella header "Pods-Client-Test-New_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
